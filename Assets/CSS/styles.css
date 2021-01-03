@@ -2438,13 +2438,12 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #ddc595;
   border-color: #ddc595;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #fec810;
-  border-color: #fec503;
+  background-color: #ddc595;
+  border-color: #ddc595;
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
@@ -3956,7 +3955,7 @@ input[type=button].btn-block {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 2rem;
 }
 .navbar .container,
 .navbar .container-fluid,
@@ -10005,7 +10004,7 @@ p {
 
 @media (min-width: 768px) {
   section {
-    padding: 9rem 0;
+    
   }
 }
 ::-moz-selection {

@@ -1,11 +1,81 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
-    background-color: #1a1a1a;
+    background-color: black;
 }
 
-.bg-dark {
-    background-color: ssss;
+
+
+
+
+        @media (min-width: 200px) {
+            #img1{ 
+                height: 300px !important;
+            }
+            #img2{ 
+                height: 300px !important;
+            }
+            #img3{ 
+                height: 300px !important;
+            }
+          }
+          
+          @media (min-width: 300px) {
+            #img1{ 
+                height: 300px !important; 
+            }
+            #img2{ 
+                height: 300px !important; 
+            }
+            #img3{ 
+                height: 300px !important; 
+            }
+          }
+          
+          @media (min-width: 400px) {
+            #img1{ 
+                height: 300px !important;
+            }
+            #img2{ 
+                height: 300px !important;
+            }
+            #img3{ 
+                height: 300px !important;
+            }
+          }
+          @media (min-width: 600px) {
+            #img1{ 
+                height: 400px !important;
+            }
+            #img2{ 
+                height: 400px !important;
+            }
+            #img3{ 
+                height: 400px !important;
+            }
+          }
+          @media (min-width: 800px) {
+            #img1{ 
+                height: 1100px !important;
+            }
+            #img2{ 
+                height: 1100px !important;
+            }
+            #img3{ 
+                height: 1100px !important;
+            }
+          }
+
+.mission {
+    background-image: url(../Images/BG-Images/Mission.png);
+    background-position: center;
+    background-size: cover;
+    
 }
 
-footer {
-    color: #ddc595;
+.mission h1, p {
+    
 }
+
