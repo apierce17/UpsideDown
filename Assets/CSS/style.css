@@ -5,10 +5,14 @@ html {
 body {
     background-color: black;
 }
+#legal li, a {
+    display:inline;
+    color: gray;
+  }
 
-
-
-
+  .p-5 {
+    padding: 3rem !important;
+  }
 
         @media (min-width: 200px) {
             #img1{ 
@@ -72,10 +76,6 @@ body {
     background-image: url(../Images/BG-Images/Mission.png);
     background-position: center;
     background-size: cover;
-    
-}
-
-.mission h1, p {
     
 }
 

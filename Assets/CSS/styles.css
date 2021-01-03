@@ -10002,11 +10002,6 @@ p {
   margin-bottom: 4rem;
 }
 
-@media (min-width: 768px) {
-  section {
-    
-  }
-}
 ::-moz-selection {
   background: #ddc595;
   text-shadow: none;
@@ -10057,7 +10052,6 @@ img::-moz-selection {
   font-size: 0.75rem;
   color: #fff;
   text-transform: uppercase;
-  background-color: #;
   border: 0;
 }
 #mainNav .navbar-brand {
