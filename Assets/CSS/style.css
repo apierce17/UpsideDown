@@ -2,6 +2,13 @@ html {
     scroll-behavior: smooth;
   }
 
+  :target:before {
+    content:"";
+    display:block;
+    height:72px; /* fixed header height*/
+    margin:-72px 0 0; /* negative fixed header height */
+    }
+
 body {
     background-color: black;
 }
@@ -72,10 +79,13 @@ body {
             }
           }
 
-.mission {
+
+#mission, .mission {
     background-image: url(../Images/BG-Images/Mission.png);
     background-position: center;
     background-size: cover;
-    
+    padding-bottom: 72px;
 }
+
+
 
