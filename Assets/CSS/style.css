@@ -12,6 +12,11 @@ html {
 body {
     background-color: black;
 }
+
+#collection a {
+    color: #ddc595;
+}
+
 #legal li, a {
     display:inline;
     color: gray;
