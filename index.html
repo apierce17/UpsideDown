@@ -10,7 +10,6 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Delius">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="./Assets/CSS/styles.css">
         <link rel="stylesheet" href="./Assets/CSS/style.css">
         
         
@@ -50,7 +49,7 @@
               <li data-target="#demo" data-slide-to="2"></li>
             </ul>
             
-            <!-- The slideshow -->
+            <!-- Images -->
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="./Assets/Images/BG-Images/1.jpg" id= "img1" alt="">
@@ -62,12 +61,12 @@
                 <img src="./Assets/Images/BG-Images/3.jpg" id= "img3" alt="">
               </div>
             </div>
-            
           </div>
 
           <section id="Collection">
             <div class="jumbotron jumbotron-fluid bg-dark text-light text-center p-5 mb-0">
                 <div class="container">
+                    <img src="./Assets/Images/Icons/Logo.svg" width="200px" class="pb-5">
                 <h2>ABOUT THIS COLLECTION</h2>
                 <p>This collection is to bring awareness to depression and suicide prevention.
                 <br>For this collection, we will be donating to the American Foundation for Suicide Prevention (AFSP).
@@ -606,7 +605,7 @@
                 </div>
       </section>
         <section id="mission">
-            <div class="jumbotron jumbotron-fluid bg-dark text-light text-center mission p-5 mb-0">
+            <div class="jumbotron jumbotron-fluid bg-dark text-light text-center mission p-5">
                 <div class="container">
                 <h1>Our Mission</h1>
                 <p>Our mission at Upside x Down is raising awerness to different causes. 
@@ -615,8 +614,8 @@
             </div>  
         </section>
 
-        <section id="contact">
-            <div class="container text-light bg-dark p-5 contact">
+        <section id="contact" class="bg-dark">
+            <div class="container text-light p-5 contact">
                 <h1 style="text-align: center;">Contact</h1>
                 <br>
                     <form action="https://formspree.io/f/xqkggvgb" method="POST">
@@ -638,22 +637,18 @@
                             <textarea name="message" name="message" class="form-control" placeholder="Enter message" id="message" width="500px rows="2" cols="200""></textarea>
                             </label>
                         </div>
-
-                    <!-- your other form fields go here -->
-
                     <button type="submit" class="btn btn-block btn-primary">Submit</button>
                     </form>
         </div>
         </section>
-    <br>
-        <footer>
-            <div class="text-light">
-                <div class="container-fluid row text-lg-left justify-content-center">
-                    <div class="pr-3 pt-2" style="background-color: black;">
+        <footer id="footer">
+            <div class="text-light pt-3">
+                <div class="container-fluid row text-lg-left text-center justify-content-center">
+                    <div class="pl-4 pt-2">
                         <h4>Newsletter</h4>
                     <p>Lets keep in touch!</p>
                     </div>
-                    <div class="pr-5 border-right">
+                    <div class="pl-5 pr-2 border-right">
                     <form action="https://formspree.io/f/moqppozy" method="POST">
                         <label for="email">
                             <input name="_replyto" type="email" class="form-control" placeholder="Enter email" id="email" size="25px">
@@ -661,7 +656,7 @@
                             <button type="submit" class="btn btn-block btn-secondary">Subscribe</button>
                       </form>
                     </div>
-                        <div class="row fa-2x pt-3 pl-5">
+                        <div class="row fa-2x pt-3 pl-4">
                             <div class="px-3">
                                 <a href="https://www.facebook.com/UpsidexDownApparel"><i class="fab fa-facebook-square"></i></a>
                             </div>
@@ -676,13 +671,13 @@
                     <br>
                     <br>
                 </div>
-                <div class="container px-3 row pt-3 mx-auto fa-sm border-top border-light d-flex justify-content-between">
+                <div class="container row pt-3 fa-sm border-top border-light justify-content-center mx-auto">
                     <div>
-                    <ul id="legal" style="list-style-type: none;">
+                    <ul id="legal">
                         <li>
-                            Copyright 2021 Upside X Down.
+                            &#169 2021 Upside x Down.
                         </li>
-                        <li class="px-3">
+                        <li>
                             <a href="/Privacy-Policy.html">Privacy Policy</a>
                         </li>
                         <li>
@@ -691,26 +686,26 @@
                     </ul>
                     </div>
                     <div>
-                    <ul id="legal" style="list-style-type: none;">
-                        <li class="px-3">
+                    <ul id="legal">
+                        <li class="pr-3">
                             <span title="Powered by Shopify"><i class="fab fa-shopify"></i></span>
                         </li>
-                        <li>
+                        <li class="pr-3">
                             <span title="Visa"><i class="fab fa-cc-visa"></i></span>
                         </li>
-                        <li class="px-3">
+                        <li class="pr-3">
                             <span title="MasterCard"><i class="fab fa-cc-mastercard"></i></span>
                         </li>
-                        <li>
+                        <li class="pr-3">
                             <span title="American Express"><i class="fab fa-cc-amex"></i></span>
                         </li>
-                        <li class="px-3">
+                        <li class="pr-3">
                             <span title="Discover"><i class="fab fa-cc-discover"></i></span>
                         </li>
-                        <li>
+                        <li class="pr-3">
                             <span title="JCB"><i class="fab fa-cc-jcb"></i></span>
                         </li>
-                        <li class="px-3">
+                        <li class="pr-3">
                             <span title="Diners Club"><i class="fab fa-cc-diners-club"></i></span>
                         </li>
                         <li>
@@ -733,10 +728,8 @@
 
         <!-- Scripts -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <script src="./Assets/JS/scripts.js"></script>
     </body>
 </html>
