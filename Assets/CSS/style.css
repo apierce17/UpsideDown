@@ -16,6 +16,11 @@ html {
 textarea {
     resize: none;
 }
+#mainNav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #1a1a1a;
+  }
 #footer {
     background-color: black;
 }
