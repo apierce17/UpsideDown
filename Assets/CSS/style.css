@@ -60,7 +60,7 @@ li, a:hover {
     text-transform: uppercase;
 }
 #mainNav .navbar-brand img {
-height: 1.5rem;
+    height: 1.5rem;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -68,7 +68,7 @@ height: 1.5rem;
     color: #fff;
     letter-spacing: 0.0625em;
 }
-    #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
     color: #ddc595;
 }
 #home img {
@@ -112,8 +112,7 @@ height: 1.5rem;
 .bg-black {
       background-color: black;
 }
-  
-  @media (min-width: 992px) {
+    @media (min-width: 992px) {
     #mainNav {
       padding-top: 1.5rem;
       padding-bottom: 1.5rem;
@@ -138,7 +137,7 @@ height: 1.5rem;
       font-size: 1.25em;
     }
     #mainNav.navbar-shrink .navbar-brand svg,
-  #mainNav.navbar-shrink .navbar-brand img {
+    #mainNav.navbar-shrink .navbar-brand img {
       height: 2.5rem;
     }
     #mainNav .navbar-nav .nav-item {
@@ -148,9 +147,18 @@ height: 1.5rem;
       margin-right: 0;
     }
   }
+  @media (max-width: 992px) {
+    .carousel-inner {
+        padding-top: 65px;
+    }
+    .fa-angle-double-right,
+    .fa-angle-double-left {
+    display: none;
+    }
 /* Removes border in footer */
     @media (max-width: 660px) {
     .border-right{
         border-right: 0px solid #dee2e6 !important;
     }
+}
 }
