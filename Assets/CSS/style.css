@@ -1,10 +1,10 @@
 :root {
-    --yellow: #ddc595;
+    --yellow: #dbb468;
     --gray: #6c757d;
     --gray-dark: #343a40;
-    --primary: #ddc595;
+    --primary: #dbb468;
     --secondary: #6c757d;
-    --warning: #ddc595;
+    --warning: #dbb468;
     --dark: #1a1a1a;
 }
 body {
@@ -39,7 +39,8 @@ li, a:hover {
 }
 #hats, #hoodies, #T-Shirts {
     margin-left: -15px;
-}#mainNav {
+}
+#mainNav {
     padding-top: 1rem;
     padding-bottom: 1rem;
     background-color: #1a1a1a;
@@ -53,7 +54,7 @@ li, a:hover {
     border: 0;
 }
 #mainNav .navbar-brand {
-    color: #ddc595;
+    color: #dbb468;
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-weight: 700;
     letter-spacing: 0.0625em;
@@ -69,7 +70,7 @@ li, a:hover {
     letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #ddc595;
+    color: #dbb468;
 }
 #home img {
     height: auto !important;
