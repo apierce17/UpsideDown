@@ -104,6 +104,9 @@ li, a:hover {
     border-color: var(--primary);
     color: var(--dark);
 }
+.bg-trans {
+    background-color: transparent;
+}
 .p-5 {
     padding: 3rem !important;
 }
