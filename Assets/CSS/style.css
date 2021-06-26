@@ -6,6 +6,7 @@
     --secondary: #6c757d;
     --warning: #dbb468;
     --dark: #1a1a1a;
+    --trans-dark: #000000ad;
 }
 body {
     background-color: var(--dark);
@@ -15,6 +16,10 @@ html {
 }
 textarea {
     resize: none;
+}
+.shopify-buy-modal-is-active {
+    height: auto!important;
+    overflow: none!important;
 }
 #mainNav {
     padding-top: 1rem;
@@ -90,13 +95,17 @@ li, a:hover {
     padding-bottom: 1rem;
     background-color: #1a1a1a;
   }
+
+.fa-angle-double-left, .fa-angle-double-right {
+    color: var(--dark);
+}
 .mission {
     background-image: url(../Images/BG-Images/Mission.png);
     background-position: center;
     background-size: cover;
 }
 .btn-primary{
-    background-color: transparent;
+    background-color: var(--dark);
     border-color: var(--primary);
 }
 .btn-primary:hover {
