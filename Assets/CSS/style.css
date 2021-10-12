@@ -19,7 +19,7 @@ textarea {
 }
 .shopify-buy-modal-is-active {
     height: auto!important;
-    overflow: none!important;
+    overflow: hidden!important;
 }
 #mainNav {
     padding-top: 1rem;
@@ -113,6 +113,24 @@ li, a:hover {
     border-color: var(--primary);
     color: var(--dark);
 }
+.contact-checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+input[type=checkbox] {
+    margin-right: 10px;
+    -ms-transform: scale(1.5); /* IE */
+    -moz-transform: scale(1.5); /* FF */
+    -webkit-transform: scale(1.5); /* Safari and Chrome */
+    -o-transform: scale(1.5); /* Opera */
+    transform: scale(1.5);
+}
+input[type=checkbox]:checked {
+    background-color: red;
+}
 .p-5 {
     padding: 3rem !important;
 }
@@ -127,7 +145,6 @@ li, a:hover {
       padding-top: 1.5rem;
       padding-bottom: 1.5rem;
       border: none;
-      background-color: transparent;
       transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
     }
     #mainNav .navbar-brand {
